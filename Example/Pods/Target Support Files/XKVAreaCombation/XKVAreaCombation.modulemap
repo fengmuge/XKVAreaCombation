@@ -1,0 +1,6 @@
+framework module XKVAreaCombation {
+  umbrella header "XKVAreaCombation-umbrella.h"
+
+  export *
+  module * { export * }
+}

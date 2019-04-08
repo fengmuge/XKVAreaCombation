@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XKVAreaCombation (0.1.0):
+    - XKVNetworking (~> 0.1.0)
+  - XKVNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - XKVAreaCombation (from `../`)
+  - XKVNetworking (from `../../../Lib/XKVNetworking`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XKVAreaCombation:
+    :path: "../"
+  XKVNetworking:
+    :path: "../../../Lib/XKVNetworking"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XKVAreaCombation: a0d361f793fb2e2b1f98ac8282ce804fe711b466
+  XKVNetworking: b59f5265fc1b3d4bfd4aa5cb3a67168a58fd4f3d
+
+PODFILE CHECKSUM: 1295761f52f09fcf175ffac1d5f351fe6d44bdb3
+
+COCOAPODS: 1.6.1

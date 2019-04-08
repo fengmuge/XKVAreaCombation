@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		01EF9D157F9806FF17D0A53A /* Pods-XKVAreaCombation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKVAreaCombation_Example.release.xcconfig"; path = "Target Support Files/Pods-XKVAreaCombation_Example/Pods-XKVAreaCombation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3B91C70336E9FAE0B5DA1F0C /* XKVAreaCombation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKVAreaCombation.podspec; path = ../XKVAreaCombation.podspec; sourceTree = "<group>"; };
+		3B91C70336E9FAE0B5DA1F0C /* XKVAreaCombation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKVAreaCombation.podspec; path = ../XKVAreaCombation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DFB7B3DF080A981408F5E54 /* Pods-XKVAreaCombation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKVAreaCombation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKVAreaCombation_Tests/Pods-XKVAreaCombation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKVAreaCombation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKVAreaCombation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* XKVAreaCombation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKVAreaCombation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9073DCCED281A46EA7673DD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9073DCCED281A46EA7673DD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9E93BDB9921A8664CD6C3963 /* Pods-XKVAreaCombation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKVAreaCombation_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKVAreaCombation_Example/Pods-XKVAreaCombation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F68AFFC0651BBB79A0425C5 /* Pods_XKVAreaCombation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKVAreaCombation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2991A81F6DA1BFC20FE177 /* Pods-XKVAreaCombation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKVAreaCombation_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKVAreaCombation_Tests/Pods-XKVAreaCombation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EEEA7993ACC559E20AD85687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EEEA7993ACC559E20AD85687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F77B5EB354FEBB7B565375A6 /* Pods_XKVAreaCombation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKVAreaCombation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				5DFB7B3DF080A981408F5E54 /* Pods-XKVAreaCombation_Tests.debug.xcconfig */,
 				CD2991A81F6DA1BFC20FE177 /* Pods-XKVAreaCombation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -268,15 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XKVAreaCombation_Tests-checkManifestLockResult.txt",
 			);
@@ -290,15 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XKVAreaCombation_Example-checkManifestLockResult.txt",
 			);
@@ -312,15 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XKVAreaCombation_Tests/Pods-XKVAreaCombation_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
@@ -334,17 +321,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XKVAreaCombation_Example/Pods-XKVAreaCombation_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XKVAreaCombation/XKVAreaCombation.framework",
+				"${BUILT_PRODUCTS_DIR}/XKVNetworking/XKVNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKVAreaCombation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKVNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

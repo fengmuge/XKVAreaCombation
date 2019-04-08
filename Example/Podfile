@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'XKVAreaCombation_Example' do
   pod 'XKVAreaCombation', :path => '../'
-
+  pod 'XKVNetworking', :path => '../../../Lib/XKVNetworking'
   target 'XKVAreaCombation_Tests' do
     inherit! :search_paths
 

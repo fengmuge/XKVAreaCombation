@@ -1,0 +1,6 @@
+framework module Pods_XKVAreaCombation_Tests {
+  umbrella header "Pods-XKVAreaCombation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
